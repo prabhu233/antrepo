@@ -1,3 +1,5 @@
-test jenkinsfile
-adding
-Added in jenkinsfile
+node(){
+  stage('ant build'){
+  echo "ant build task"
+  }
+}
